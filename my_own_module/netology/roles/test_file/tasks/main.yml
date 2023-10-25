@@ -1,0 +1,7 @@
+---
+- name: Test module
+  my_own_module.netology.test_file:
+    path: "{{ path }}"
+    file_name: "{{ file_name }}"
+    content: "{{ content }}"
+...

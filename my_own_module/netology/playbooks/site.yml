@@ -1,0 +1,5 @@
+---
+- name: test module
+  hosts: localhost
+  roles:
+  - my_own_module.netology.test_file
